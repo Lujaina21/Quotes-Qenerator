@@ -26,9 +26,3 @@ This project is ideal for anyone who wants to display motivational or inspiratio
 2. **Random Quote Generation**: When the user clicks the "Generate Quote" button, the application selects a random quote from the list, ensuring that the same quote doesn't appear twice consecutively.
 
 3. **Updating the UI**: Once a random quote is selected, the quote text, author's name, and avatar are displayed on the page.
-
-## Installation
-
-1. Clone the repository or download the ZIP file:
-   ```bash
-   git clone https://github.com/Lujaina21/quotes-generator.git
