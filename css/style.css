@@ -51,13 +51,18 @@ body {
 }
 
 .quote-section {
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
 
 .quote-section:hover {
+  -webkit-transform: skewX(3deg) scale(1.05);
+  -ms-transform: skewX(3deg) scale(1.05);
   transform: skewX(3deg) scale(1.05);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -78,6 +83,8 @@ body {
   background-color: #d1b47b;
   border: 1px solid #000;
   font-family: DancingScript-Bold;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
