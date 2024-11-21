@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  ** Logo File ** -->
+    <link href="imgs/icon.png" rel="Icon" />
+    <!--  ** Fontawesome File ** -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ** CSS Files ** -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Quote Qenerator</title>
+  </head>
+  <body class="vh-100">
+    <main class="container">
+      <div class="inner w-75 ms-auto mt-5 pt-4">
+        <h1
+          class="title position-relative d-flex justify-content-end me-5 mt-md-5 text-black"
+        >
+          Today's Quote!
+        </h1>
+        <div class="my-5 pt-3">
+          <div
+            class="quote-section p-2 w-100 d-flex flex-row justify-content-center align-items-center me-5"
+          >
+            <div
+              class="quote-avatar d-sm-none d-md-block overflow-hidden me-4 rounded-circle w-25 h-25"
+            >
+              <img
+                src="./imgs/marlyn monroe.jpg"
+                alt="Author Image"
+                class="w-100"
+                id="avatar"
+              />
+            </div>
+            <div class="quote-text">
+              <p class="mt-5">
+                <span id="quote" class="text-black"
+                  >“ I'm selfish, impatient and a little insecure. I make
+                  mistakes, I am out of control and at times hard to handle. But
+                  if you can't handle me at my worst, then you sure as hell
+                  don't deserve me at my best. ”</span
+                >
+              </p>
+              <p class="d-flex justify-content-end me-5 text-black">
+                <i class="fa-solid fa-feather-pointed me-1 pt-1"></i>
+                <span id="author"> Marlyn Monroe</span>
+              </p>
+            </div>
+          </div>
+          <div class="quote-btn d-flex justify-content-end my-5">
+            <button
+              onclick="generateQuote()"
+              class="text-center shadow px-4 py-3"
+            >
+              Another Quote!
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
