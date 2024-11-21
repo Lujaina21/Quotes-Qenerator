@@ -50,11 +50,6 @@ body {
   bottom: -1rem;
 }
 
-.quote-section .quote-avatar {
-  /* width: 10rem;
-  height: 10rem; */
-}
-
 .quote-section {
   transition: all 0.5s ease-in-out;
   border-top-left-radius: 25px;
