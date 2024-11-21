@@ -31,4 +31,4 @@ This project is ideal for anyone who wants to display motivational or inspiratio
 
 1. Clone the repository or download the ZIP file:
    ```bash
-   git clone https://github.com/Lujaina21/quote-generator.git
+   git clone https://github.com/Lujaina21/quotes-generator.git
