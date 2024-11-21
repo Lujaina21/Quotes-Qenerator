@@ -15,9 +15,9 @@ This project is ideal for anyone who wants to display motivational or inspiratio
 
 ## Technologies Used
 
-- **HTML** - Markup for the structure of the webpage.
-- **CSS** - Styling the page and making it responsive.
-- **JavaScript** - Logic to handle random quote selection and updating the page content dynamically.
+- **HTML** 
+- **CSS** 
+- **JavaScript**
 
 ## How It Works
 
