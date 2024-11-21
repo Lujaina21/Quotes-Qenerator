@@ -21,7 +21,7 @@ This project is ideal for anyone who wants to display motivational or inspiratio
 
 ## How It Works
 
-1. **Quotes Array**: A list of quotes is predefined in the `quotes` array. Each quote object contains the text of the quote, the author's name, and a URL to the author's avatar image.
+1. **Quotes Array Of Objects**: A list of quotes is predefined in the `quotes` array. Each quote object contains the text of the quote, the author's name, and a URL to the author's avatar image.
 
 2. **Random Quote Generation**: When the user clicks the "Generate Quote" button, the application selects a random quote from the list, ensuring that the same quote doesn't appear twice consecutively.
 
