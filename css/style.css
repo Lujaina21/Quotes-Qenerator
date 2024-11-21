@@ -1,0 +1,95 @@
+/*==================== Fonts ====================*/
+/*?== Dancing Script Font ==*/
+@font-face {
+  font-family: DancingScript-Bold;
+  src: url("../fonts/Dancing_Script/static/DancingScript-Bold.ttf");
+}
+
+/*?== Faculty Glyphic Font ==*/
+@font-face {
+  font-family: FacultyGlyphic-Regular;
+  src: url("../fonts/Faculty_Glyphic/FacultyGlyphic-Regular.ttf");
+}
+
+/*==================== General Styling ====================*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url("../imgs/hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*==================== Body Styling ====================*/
+.title {
+  font-family: DancingScript-Bold;
+  font-size: 3rem;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background-color: #000;
+  width: 8rem;
+  right: 3rem;
+  bottom: -1rem;
+}
+
+.quote-section .quote-avatar {
+  /* width: 10rem;
+  height: 10rem; */
+}
+
+.quote-section {
+  transition: all 0.5s ease-in-out;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.quote-section:hover {
+  transform: skewX(3deg) scale(1.05);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.quote-section .quote-text p:nth-child(1) {
+  font-family: FacultyGlyphic-Regular;
+  letter-spacing: 2.4;
+  font-size: 20px;
+}
+
+.quote-section .quote-text p:nth-child(2) {
+  font-family: FacultyGlyphic-Regular;
+  font-size: 15px;
+  font-style: italic;
+  color: #212529;
+}
+
+.quote-btn button {
+  background-color: #d1b47b;
+  border: 1px solid #000;
+  font-family: DancingScript-Bold;
+  transition: all 0.5s ease-in-out;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 20px;
+}
+
+.quote-btn button:hover {
+  background-color: #000;
+  color: #d1b47b;
+}
