@@ -26,3 +26,7 @@ This project is ideal for anyone who wants to display motivational or inspiratio
 2. **Random Quote Generation**: When the user clicks the "Another Quote" button, the application selects a random quote from the list, ensuring that the same quote doesn't appear twice consecutively.
 
 3. **Updating the UI**: Once a random quote is selected, the quote text, author's name, and avatar are displayed on the page.
+
+## Live Demo
+
+https://lujaina21.github.io/Quotes-Qenerator/
